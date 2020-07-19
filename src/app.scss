@@ -1,0 +1,58 @@
+@import "./global";
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+#root {
+  min-height: 100vh;
+  position: relative;
+}
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  background: $primaryLight;
+  padding: 0.2rem;
+  font-size: 0.8rem;
+  color: #fff;
+  a {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+.header {
+  height: 5rem;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  box-shadow: 0 4.6px 5.3px rgba(0, 0, 0, 0.006),
+    0 11.7px 13.3px rgba(0, 0, 0, 0.009), 0 23.9px 27.1px rgba(0, 0, 0, 0.011),
+    0 49.3px 55.8px rgba(0, 0, 0, 0.014), 0 135px 153px rgba(0, 0, 0, 0.02);
+  i {
+    font-size: 1.4rem;
+    padding: 1rem;
+  }
+  margin-bottom: 1rem;
+}
+.chart-container {
+  height: 400px;
+  margin: 2rem 0;
+}
+h3,
+h4 {
+  text-align: center;
+}
+h3 {
+  color: rgb(85, 85, 85);
+  margin: 1rem 0;
+}
+h4 {
+  span {
+    padding: 1rem;
+  }
+}
